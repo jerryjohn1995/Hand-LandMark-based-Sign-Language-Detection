@@ -49,3 +49,32 @@ The scientific discipline of computer vision is concerned with the idea behind a
 
 Sub-domains of computer vision comprise of scene reconstruction, object detec- tion, event detection, video tracking, object recognition, 3D pose estimation, learning, indexing, motion estimation, 3D scene modelling, and image restoration.
 
+### 1.3 1.3	OBJECTIVES
+
+
+The project contains mainly three stages. They are as follows:
+
+•	Development of dataset collection system where we can create our own dataset accurately.
+
+•	The image pre-processing and to detect the hand landmark points using medi- apipe framework.
+
+•	CNN based image classification model development and sign language classifica- tion.
+
+## 2 LITERATURE REVIEW
+
+Research on sign language recognition has been started since 2000. It is mainly based on two approaches i.e. sensor based and vision-based approach. The sensor-based approach is very costly and complicated compared to vision-based approach. In the vision-based approach, features are obtained from the input images or videos, here we are giving more concentration on vision-based approach.
+
+### 2.1 2.2	OUTLINE OF LITERATURE REVIEW
+
+** Sang-Ki Ko, jae Gi Son, Hyedong Jung “Sign language Recognition with Recurrent Neural Network using Human Key point Detection” Conference on Research in Adaptive Systems, October (2018) **
+
+Sang-Ki Ko et. al.  propose a research paper [1] in which they are extracting human key point from hand and body parts. They are more concentrating on the body gesture than concentrating on a single part. This key point values are then used for the gesture identification. A classification accuracy of 89.5 percent is obtained.
+
+** Liuhao Ge, Zhou Ren, Yuncheng Li, Zehao Xue, Yingying Wang, Jianfei Cai, Junsong Yuan “3D Hand Shape and Pose Estimation from a Single RGB image”, IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2019. **
+
+Liuhao Ge, Zhou Ren et. al. proposes a research paper [2] in which a Dense Net based architecture is implemented. Different date augmentations I used on this model like random rotation, horizontal and vertical shifts, zooming etc. For training the used about 2,000 images. Attest accuracy of 14.3% is achieved for this model.
+
+** Fan Zhang Valentin Bazarevsky Andrey Vakunov Andrei Tkachenka George Sung Chuo-Ling Chang Matthias Grundmann “MediaPie Hands: On-device Real-time Hand Tracking”, Computer Vision for Augmented and Virtual Reality, Seattle, WA, USA, 2020. **
+
+Fan Zhang et. al [3] research work is the media pipe base paper where the use real fine hand tracking model. The media pipe is able to protect a hand skeleton from a single RGB image. It also able to detect the palm. The hand land mark function is doing the key point prediction and about 21 hand landmarks are detected.
+
