@@ -66,7 +66,7 @@ Research on sign language recognition has been started since 2000. It is mainly 
 
 ### 2.1 2.2	OUTLINE OF LITERATURE REVIEW
 
-** Sang-Ki Ko, jae Gi Son, Hyedong Jung “Sign language Recognition with Recurrent Neural Network using Human Key point Detection” Conference on Research in Adaptive Systems, October (2018) **
+**Sang-Ki Ko, jae Gi Son, Hyedong Jung “Sign language Recognition with Recurrent Neural Network using Human Key point Detection” Conference on Research in Adaptive Systems, October (2018)**
 
 Sang-Ki Ko et. al.  propose a research paper [1] in which they are extracting human key point from hand and body parts. They are more concentrating on the body gesture than concentrating on a single part. This key point values are then used for the gesture identification. A classification accuracy of 89.5 percent is obtained.
 
